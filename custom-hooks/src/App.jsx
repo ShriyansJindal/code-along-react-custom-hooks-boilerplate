@@ -6,7 +6,8 @@ function App() {
 
   return (
     <>
-      <input type="text" placeholder='Enter Some Text'  onChange={(e)=>setStorage(e.target.value)}  />
+    <h2>Enter Some Text</h2>
+      <input type="text" placeholder='Enter Some Text' style={{padding:" 5px 10px"}} onChange={(e)=>setStorage(e.target.value)}  />
     </>
   )
 }
